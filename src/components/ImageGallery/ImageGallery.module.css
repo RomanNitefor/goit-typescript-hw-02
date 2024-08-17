@@ -1,0 +1,18 @@
+.imageGallery {
+  column-count: 3;
+  column-gap: 20px;
+}
+
+.imageGallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.imageItem {
+  break-inside: avoid;
+  margin-bottom: 20px;
+  list-style: none;
+}
